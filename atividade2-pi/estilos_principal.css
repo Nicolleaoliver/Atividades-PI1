@@ -1,0 +1,118 @@
+:root {
+    /* Declaração: começa sempre com dois traços */ /* #f4efe7 */
+    --cor-principal: #f1e8ed; 
+    --fonte-titulo: 3rem;
+    --fonte-pagina: 1rem;
+    --fonte--subtitulo: 1.5rem;
+    --vermelho--escuro: #400A0F;
+    --espacamento--linha: 1.5;
+    --italico: italic;
+    --preto: #282829;
+    --esquerda: left;
+}
+
+.p1 {font-weight: 700;}
+
+.p2 {font-weight: 900;}
+
+.p3 { font-style: oblique 10deg; }
+
+.p4 { font-style: oblique 20deg; }
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.tilt-neon {
+    color: var(--preto);
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    
+}
+
+.cinzel {
+    color: var(--preto);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: var(--esquerda);
+}
+
+.fonte-wheight-normal{
+    font-weight: 100;
+}
+
+.tilt-neon{
+    line-height: var(--espacamento--linha);
+    font-family: 'Tilt Neon', sans-serif;
+    color: var(--preto);
+    text-align: justify;
+}
+
+
+.main{
+    background-color: var(--cor-principal);
+    font-size: var(--fonte-pagina);
+}
+
+
+.title{
+    background-color: #a74374;
+    width: 100%;
+    height: 40%;
+}
+
+
+.titulo-link a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+.autor-data{
+    text-align: left;
+    color: #000000;
+    font-style: var(--italico);
+    font-size: .8rem;
+}
+
+
+.separador{
+    color: var(--cor-principal);
+    background-color: #a74374;
+    text-align: center;
+}
+
+
+h1{
+    color: var(--cor-principal);
+    text-align: center;
+}
+
+
+h2{
+    font-size: var(--fonte--subtitulo);
+    color: var(--preto);
+    text-align: left;
+}
+
+
+.texto{
+    color: var(--preto);
+    text-align: left;
+}
+
+
+.autorcontainer{
+    background-color: #A5A692;
+    width: 100%;
+    height: 10%;
+
+}
+
+
