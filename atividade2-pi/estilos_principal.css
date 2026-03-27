@@ -1,5 +1,4 @@
 :root {
-    /* Declaração: começa sempre com dois traços */ /* #f4efe7 */
     --cor-principal: #f1e8ed; 
     --fonte-titulo: 3rem;
     --fonte-pagina: 1rem;
@@ -9,6 +8,42 @@
     --italico: italic;
     --preto: #282829;
     --esquerda: left;
+    --centralizado: center;
+}
+
+.centro {align-items: var(--centralizado);}
+
+.titulo-img {
+    text-align: var(--centralizado);
+    font-weight: bold;
+    color: #282829;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.coluna {
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.item-foto {
+    max-width: 70%;
+    background: #bd5e5e;    
+    padding: 10px;
+    border-radius: 8px;
+    aspect-ratio: 3 / 4
+    
+
+}
+
+.item-foto span {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 5px;
 }
 
 .p1 {font-weight: 700;}

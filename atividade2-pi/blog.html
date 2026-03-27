@@ -13,12 +13,36 @@
 </head>
 <body class="main">
     <button onclick="alternarEstilo()" class="separador">Trocar estilo</button>
-    <header class="title"><h1>K-Vibe: Guia de estilo e cultura pop coreana &#10084;</h1></header>
+    <header class="title"><h1>Blog de PI 1 &#128187; 🌐 </h1></header>
     <hr>
     <article>
+        <article>
+        <h2>Comparativo de Resoluções: Café</h2>
+        <p>Abaixo, testamos como diferentes resoluções se comportam no navegador.</p>
+        <div class="container">
+            <div class="coluna">
+                <span><p class="titulo-img">Alta Resolução (7462px)</p></span>
+                <img src="assets/img-alta-resolucao.jpg" class="item-foto" alt="Imagem de Alta Resolução">
+            </div>
+            <div class="coluna">
+                <span><p class="titulo-img">Média Resolução</strong> (1200px)</p></span>
+                <img src="assets/img-media-resolucao.jpg" class="item-foto" alt="Imagem de Média Resolução">
+            </div>
+            <div class="coluna">
+                <span><p class="titulo-img"> Baixa Resolução</strong> (300px)</p></span>
+                <img src="assets/img-baixa-resolucao.jpg" class="item-foto" alt="Imagem de Baixa Resolução">
+            </div>
+        </div>
+        <h2>Relatório sobre o carregamento das imagens</h2>
+        <ul>
+            <li>Latência e Throttling: Usei o Throttling do Chrome para simular condições reais de rede.</li>
+            <li>Payload (Carga Útil): O payload da imagem de alta resolução compromete a LCP (Largest Contentful Paint), 
+                que é o tempo que a maior peça de conteúdo leva para aparecer.</li>
+            <li>Conclusão: "Imagens de altíssima resolução (como 7462px) devem ser usadas apenas para impressão ou download específico.
+                Para exibição web, o redimensionamento e a compressão são fundamentais para a retenção do usuário."</li>
+        </ul>
 
-    </article>
-    
+        <p class="separador">&#9733; &#9733; &#9733;</p>
     <article>
         <p class="rubik texto">Estilo normal escrito aqui</p>
         <p class="rubik texto p3">Texto com estilo oblique 10deg</p>
@@ -108,3 +132,24 @@
         <p></p>
 </body>
 </html>
+
+
+<!-- <div class="container">
+        <div class="item-foto">
+            <p><strong>Alta Resolução</strong> (7462px)</p>
+            <img src="assets/img-alta-resolucao.jpg" class="img-preview" alt="Café em alta">
+            <span>Peso: 1.38 MB</span>
+        </div>
+
+        <div class="item-foto">
+            <p><strong>Média Resolução</strong> (1200px)</p>
+            <img src="assets/img-media-resolucao.jpg" class="img-preview" alt="Café em média">
+            <span>Peso: ~300 KB</span>
+        </div>
+
+        <div class="item-foto">
+            <p><strong>Baixa Resolução</strong> (400px)</p>
+            <img src="assets/img-baixa-resolucao.jpg" class="img-preview" alt="Café em baixa">
+            <span>Peso: ~50 KB</span>
+        </div>
+    </div> -->

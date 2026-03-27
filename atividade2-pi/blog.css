@@ -1,0 +1,50 @@
+.main{
+    background-color:rgb(210, 223, 235);
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.autor{
+    text-align: right;
+    color: #011F26;
+}
+
+
+.separador{
+    color: #025E73;
+    text-align: center;
+}
+
+
+h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.azulpetroleo{
+    color: #025E73;
+    text-align: left;
+}
+
+
+.texto{
+    color: #011F26;
+    text-align: left;
+}
+
+
+.autorcontainer{
+    background-color: #A5A692;
+    width: 90%;
+    height: 10%;
+
+}
+
+
+.title{
+    background-color: #011F26;
+    width: 90%;
+    height: 30%;
+}
